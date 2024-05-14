@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(34, 34, 34);
+  color: rgb(235, 235, 235);
+}
+
+.indent {
+  padding-left: 20px;
+}
+
+.expand {
+  width: 14px;
+  height: 14px;
+  padding: 1px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  margin-left: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.open {
+  background-color: rgb(21, 204, 21);
+}
+.close {
+  background-color: rgb(236, 37, 37);
+}
+
+.name-tab {
+  display: flex;
+  align-items: center;
+  padding-bottom: 14px;
+}
